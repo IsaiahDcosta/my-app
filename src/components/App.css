@@ -1,0 +1,103 @@
+
+.App {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+     border-radius: 25px;
+ 
+  }
+  
+  
+  header {
+    border-radius: 25px;
+    background-color:#4681f4;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  footer {
+    
+    margin-right: 20px;
+    
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #4681f4;
+    margin-top: 50px;
+    font-family: "McLaren", cursive;
+  }
+
+
+
+.remaining-budget {
+  margin-top: 20px;
+  font-family: "McLaren", cursive;
+}
+
+
+
+.search-container {
+  margin-top: 20px;
+}
+
+
+
+
+
+.input-container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "McLaren", cursive;
+}
+
+.input-container > * {
+  margin-right: 15px;
+  font-family: "McLaren", cursive;
+}
+
+.expenses-list {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 500px;
+  font-family: "McLaren", cursive;
+  margin-left:5px;
+}
+
+.expenses-list .ant-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  font-family: "McLaren", cursive;
+}
+
+
+
+.expenses-list .ant-list-item > * {
+  flex: 1;
+  margin-right: 10px;
+  font-family: "McLaren", cursive;
+}
+
+.expenses-list .ant-btn {
+  flex: 0;
+  padding: 4px 8px;
+  font-family: "McLaren", cursive;
+}
+
